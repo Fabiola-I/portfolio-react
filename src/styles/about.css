@@ -1,0 +1,148 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background:#0c243c;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+
+#about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  padding-bottom: 10px;
+  border: none; /* removed underline */
+}
+
+.intro {
+  font-size: 18px;
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.7;
+  color: #eee;
+}
+
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+/* Personal Details Panel (Left) */
+.left-panel {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sub-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+  border: none; /* removed underline */
+}
+
+.left-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-panel li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.label {
+  color: #4caf50; /* greenish-blue */
+  font-weight: bold;
+}
+
+/* Interests Panel (Right) */
+.right-panel {
+  flex: 1;
+  min-width: 300px;
+}
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.interest {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  width: calc(33.333% - 13.33px); /* 3 per row */
+}
+
+.interest img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: brightness(1.2); /* Optional: makes icons pop on dark bg */
+}
+
+
+.interest span {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #eee;
+}
+
+/* Highlights Section */
+.highlights {
+  margin-top: 40px;
+  text-align: left;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.highlights li {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #eee;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .interest {
+    width: calc(50% - 10px); /* 2 per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .interest {
+    width: 100%; /* 1 per row on mobile */
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+
+  .left-panel li {
+    font-size: 14px;
+  }
+}

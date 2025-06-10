@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "category": "Embedded Programming & Firmware Development",
+      "items": ["Embedded C/C++, Python (device control)", "Java (Android IoT integration)"]
+    },
+    {
+      "category": "Embedded Systems & Microcontrollers",
+      "items": ["ESP32, STM32, ARM Cortex,Arduino,NodeMCU"]
+    },
+    {
+      "category": "Hardware-Software Integration",
+      "items": ["PCB Design (KiCad, EasyEDA),Sensor Networks"]
+    },
+    {
+      "category": "IoT Protocols & Communication",
+      "items": ["Bluetooth, Wi-Fi, ZigBee, LoRa"]
+    },
+    {
+      "category": "Mobile-Embedded Interface Development",
+      "items": ["Android (Java – UI/UX, control interface)"]
+    },
+    {
+      "category": "Cloud & Data Platforms for IoT",
+      "items": ["Adafruit IO", "Blynk"]
+    },
+    {
+      "category": "Prototyping & Fabrication",
+      "items": ["SolidWorks", "AutoCAD", "3D Printing", "CNC Machining", "Laser Cutting"]
+    },
+    {
+      "category": "Product Team Collaboration & Agile Development",
+      "items": ["Agile Workflow", "Product Coordination", "Technical Documentation"]
+    }
+  ]
+}

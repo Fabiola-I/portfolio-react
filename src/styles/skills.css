@@ -1,0 +1,82 @@
+.skills-section {
+  padding: 40px 20px;
+  background-color: #0c243c;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 40px;
+  /* border-bottom removed */
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.skills-column {
+  flex: 1;
+  min-width: 300px;
+  background-color: #0c4b75;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.skills-column h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  /* border-bottom removed */
+  padding-bottom: 6px;
+}
+
+.skill-category {
+  margin-bottom: 25px;
+}
+
+.skill-category h4 {
+  color: #4caf50;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.skill-category ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skill-category li {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+/* Hover effect (optional) */
+.skills-column:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .skills-column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,110 @@
+.experience-section {
+  padding: 40px 20px;
+  background-color: #0c243c;
+  color: #fff;
+}
+
+.experience-section h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* Flex container: Education on left, Work on right */
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Shared box style */
+.education,
+.work {
+  flex: 1;
+  min-width: 300px;
+  background-color: #0c4b75;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+/* Slight offset for Education */
+.education {
+  margin-top: 50px;
+}
+
+/* Section emojis */
+.education h3::before {
+  content: '🎓';
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.work h3::before {
+  content: '💼';
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+/* Timeline bullets and hover */
+.edu-item,
+.work-item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  border-left: 2px solid #4caf50;
+  transition: transform 0.3s ease;
+}
+
+.edu-item::before,
+.work-item::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.edu-item:hover,
+.work-item:hover {
+  transform: scale(1.02);
+}
+
+/* Headings and text */
+.education h4,
+.work h4 {
+  font-size: 18px;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.experience-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Separator */
+.edu-item:not(:last-child),
+.work-item:not(:last-child) {
+  border-bottom: 1px dashed #333;
+  padding-bottom: 15px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+  }
+
+  .education {
+    margin-top: 0;
+  }
+}

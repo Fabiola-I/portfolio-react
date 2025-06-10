@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Post-Harvest Security System",
+      "description": "ML-powered device for early detection of weevils using sensor data.",
+      "technologies": ["Embedded C", "Sensors", "Machine Learning"],
+      "githubUrl": "https://github.com/Fabiola-I",
+      "icon": "/assets/icons/store.png"
+    },
+    {
+      "id": 2,
+      "title": "Wearable Health Patch",
+      "description": "IoT patch for neonatal monitoring with biomedical sensors.",
+      "technologies": ["IoT", "PCB", "Wireless"],
+      "githubUrl": "https://github.com/Fabiola-I",
+      "icon": "/assets/icons/health.png"
+    },
+    {
+      "id": 3,
+      "title": "Flight Controller",
+      "description": "Smart controller integrating sensors and actuators using Embedded C.",
+      "technologies": ["PCB", "Actuators", "Sensors"],
+      "githubUrl": "https://github.com/Fabiola-I",
+      "icon": "/assets/icons/controller.png"
+    },
+    {
+      "id": 4,
+      "title": "Smart Parking App",
+      "description": "Android app linked to IoT sensors for real-time parking data.",
+      "technologies": ["Java", "IoT", "Android"],
+      "githubUrl": "https://github.com/Fabiola-I",
+      "icon": "/assets/icons/parking.png"
+    },
+    {
+      "id": 5,
+      "title": "Smart Irrigation System",
+      "description": "An automated system for smart water usage.",
+      "technologies": ["ESP32", "LoRa", "Sensors"],
+      "icon": "/assets/icons/irrigation.png",
+      "githubUrl": "https://github.com/your-username/smart-irrigation"
+    },
+    {
+      "id": 6,
+      "title": "Intellinent groundnuts Dispensor",
+      "description": "This is an automated machine which will be used in buying and seling graundnuts.",
+      "technologies": ["servo motor","keypad","LCD"],
+      "icon": "/assets/icons/dispenser.png",
+      "githubUrl": "https://github.com/your-username/smart-irrigation"
+    },
+        {
+      "id": 7,
+      "title": "color Based spectrophotometry",
+      "description": "Used to detect the water Quality and the fruit readness using color.",
+      "technologies": ["color sensor","MCU","LCD"],
+      "icon": "/assets/icons/color.png",
+      "githubUrl": "https://github.com/your-username/smart-irrigation"
+    },
+        {
+      "id": 8,
+      "title": "Itwararike ",
+      "description": "Help visual impaired individuall to navigate through zebra closing safely.",
+      "technologies": ["sensor","buzzer","MCU"],
+      "icon": "/assets/icons/traffic.png",
+      "githubUrl": "https://github.com/your-username/smart-irrigation"
+    }
+          
+  
+  ]
+}

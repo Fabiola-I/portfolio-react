@@ -1,0 +1,29 @@
+{
+  "education": [
+    {
+      "institution": "University of Rwanda, College of Science and Technology",
+      "degree": "BSc in Electronics and Telecommunication Engineering",
+      "duration": "April 2021 – June 2025"
+    }
+  ],
+  "work": [
+    {
+      "position": "Research Assistant",
+      "company": "KAGOMA Tech",
+      "duration": "September 2024 - Present",
+      "description": "Designed an IoT health patch with flexible PCBs and biomedical sensors; collaborated with clinicians during trials to improve accuracy."
+    },
+    {
+      "position": "Project Intern (Robotics and Flight Controllers)",
+      "company": "FABLAB Rwanda",
+      "duration": "May 2024 – August 2025",
+      "description": "Built a flight controller using Embedded Linux and C, integrating inertial sensors and actuators with improved hardware stability."
+    },
+    {
+      "position": "Software Embedded System Trainee",
+      "company": "KLab Rwanda",
+      "duration": "February 2024 – July 2024",
+      "description": "Developed an IoT Smart Parking System with embedded hardware and Python-based backend for real-time communication."
+    }
+  ]
+}

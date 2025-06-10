@@ -1,0 +1,14 @@
+{
+  "socials": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/fabiola-ingabire-247b2b25a/",
+      "icon": "/assets/icons/linkedin.png"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Fabiola-I",
+      "icon": "/assets/icons/github.png"
+    }
+  ]
+}
