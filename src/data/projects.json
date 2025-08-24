@@ -5,15 +5,15 @@
       "title": "Post-Harvest Security System",
       "description": "ML-powered device for early detection of weevils using sensor data.",
       "technologies": ["Embedded C", "Sensors", "Machine Learning"],
-      "githubUrl": "https://github.com/Fabiola-I",
+      "githubUrl": "https://github.com/Fabiola-I/Grainsentinal-",
       "icon": "/assets/icons/store.png"
     },
     {
       "id": 2,
-      "title": "Wearable Health Patch",
-      "description": "IoT patch for neonatal monitoring with biomedical sensors.",
+      "title": "BiliTrack",
+      "description": "Dual wavelenth photometry neonatal jaundice treatment monitoring device.",
       "technologies": ["IoT", "PCB", "Wireless"],
-      "githubUrl": "https://github.com/Fabiola-I",
+      "githubUrl": "https://github.com/Fabiola-I/Bilitrack_Project",
       "icon": "/assets/icons/health.png"
     },
     {
@@ -21,7 +21,7 @@
       "title": "Flight Controller",
       "description": "Smart controller integrating sensors and actuators using Embedded C.",
       "technologies": ["PCB", "Actuators", "Sensors"],
-      "githubUrl": "https://github.com/Fabiola-I",
+      "githubUrl": "https://github.com/Fabiola-I/Multipurpose-Flight-Controller-",
       "icon": "/assets/icons/controller.png"
     },
     {
@@ -29,7 +29,7 @@
       "title": "Smart Parking App",
       "description": "Android app linked to IoT sensors for real-time parking data.",
       "technologies": ["Java", "IoT", "Android"],
-      "githubUrl": "https://github.com/Fabiola-I",
+      "githubUrl": "https://github.com/Fabiola-I/Smart-parking-Rwanda",
       "icon": "/assets/icons/parking.png"
     },
     {
@@ -54,7 +54,7 @@
       "description": "Used to detect the water Quality and the fruit readness using color.",
       "technologies": ["color sensor","MCU","LCD"],
       "icon": "/assets/icons/color.png",
-      "githubUrl": "https://github.com/your-username/smart-irrigation"
+      "githubUrl": "https://github.com/Fabiola-I/Color-Sensor-based-Spectrophotometry-"
     },
         {
       "id": 8,
